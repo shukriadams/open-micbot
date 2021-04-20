@@ -3,7 +3,8 @@
 Motorized, remote-controllable unit to automate positioning of mic. Intended as a studio aid for guitar amp micing.
 
 - fully open source - all electronics, STLs, etc
-- has 3 motors, supports 2 planes of movement (x, z) and yaw. Y is not supported to simplify design, and because it's not necessary, as all theoretical cone positions are covered by just x + z.
+- supports 2 planes of movement (x, z) and yaw in two axes. Y is not supported to simplify design, and because it's not necessary, as all theoretical cone positions are covered by just x + z.
+- supports replicatable amp-relative positioning - if place centered to a speaker cap and leveled, will reproduce the same results if torn down and relaced.
 - must be assembled from 3d printable parts, or wood. All electronics, joints etc must be easily procured parts
 - must be simple enough for someone with basic technical skills to build
 - controlled by arduino + pi, or equivalents. Should not require specialized PCBs or controllers
