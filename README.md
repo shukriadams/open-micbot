@@ -18,3 +18,4 @@ Motorized, remote-controllable unit to automate positioning of mic. Intended as 
 - small enough to allow two units to operate side-by-side on a single 12" speaker, meaning must allow mic to be positioned at edge of unit
 - step-by-step assembly guide with plenty of checks to ensure each stage works, and troubleshooting.
 - must be broken down into separate units / sub-projects. Each sub-system can be swapped out and iterated up without requiring changes to other sub-systems, or with only minor adjustments to settings. 
+- extremely simple calibration, lots of built-in diagnostics, the target audience is musicians, assume they are not interested in modding / tinkering.
