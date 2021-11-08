@@ -5,13 +5,15 @@ Motorized, remote-controllable unit to automate positioning of mic. Intended as 
 - fully open source - all electronics, STLs, etc
 - supports 2 planes of movement (x, z) and yaw in two axes. Y is not supported to simplify design, and because it's not necessary, as all theoretical cone positions are covered by just x + z.
 - supports replicatable amp-relative positioning - if place centered to a speaker cap and leveled, will reproduce the same results if torn down and relaced.
-- must be assembled from 3d printable parts, or wood. All electronics, joints etc must be easily procured parts
+- must be assembled from 3d printable parts, or wood. All electronics, joints etc must be easily procured parts. Favour ease of cutting/printing/assembly over appearance.
 - must be simple enough for someone with basic technical skills to build
 - controlled by arduino + pi, or equivalents. Should not require specialized PCBs or controllers
 - usb powered (5v)
 - can support bluetooth connections from mobile phones
 - has a mobile phone app for android + iphone, also open source
-- can be controlled from a pc over wifi or ethernet. can allow remote control so someone else can help you mic a good sound.
+- can be controlled from a pc over wifi or ethernet. can allow remote control so a remote session can position mic
+- has support for a rasperry pi camera for live view. does not support live audio, anyonen needing to monitor sound will likely want their own hi-end solution
+- all component joints must clearly display version nrs of the interface in question, making it easy to track changes and read off compatability
 - can save + replay mic positioning profiles. profiles are single files with metadata that can easily be shared between people.
 - can support weight of standard mics, can be weighed down easily for stability
 - has universal mic-stand screw
